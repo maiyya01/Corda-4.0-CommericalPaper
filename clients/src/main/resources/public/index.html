@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Commercial Paper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body >
+<div class="container">
+    <div class="container-fluid">
+        <h2>Commercial Paper</h2>
+
+        <form id="frm1" action="http://localhost:50006/post-commercialPapers" method="post">
+            <table class='table' border='0' style='width:60%'>
+                <tr>
+                        <td>
+                            Paper Number :
+                        </td>
+                        <td>
+                            <input type="text" name="paperNumber" id="paperNumber" value="">
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        Issue Date :
+                    </td>
+                    <td>
+                        <input type="text" name="issueDate" id="issueDate" value="">
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            Maturity Date :
+                        </td>
+                        <td>
+                            <input type="text" name="maturityDate" id="maturityDate" value="">
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        Face Value :
+                    </td>
+                    <td>
+                        <input type="text" name="faceValue" id="faceValue" value="">
+                    </td>
+                </tr>
+            </table>
+        </br>
+                <input type="button" onclick="myFunction()" value="Submit">
+
+        </form>
+        <br /><br /><br />
+        <div class="table-responsive" id="demo">
+        </div>
+    </div>
+
+
+    <script>
+        var obj, dbParam, xmlhttp, myObj, x, txt = "";
+        obj = { table: "customers", limit: 20 };
+        dbParam = JSON.stringify(obj);
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+            txt += "<table class='table' border='0' style='width:60%'> <tr><th>Face Value</th><th>start Price</th><th>Maturity Date</th></tr>"
+            for (x in myObj) {
+              txt += "<tr><td>" + myObj[x].state.data.faceValue + "</td><td>" +
+                    myObj[x].state.data.startPrice + "</td><td>" + myObj[x].state.data.maturityDate   + " </td></tr>";
+            }
+            txt += "</table>"
+            document.getElementById("demo").innerHTML = txt;
+          }
+        };
+        xmlhttp.open("GET", "http://localhost:50006/commercialPapers", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send();
+    </script>
+
+    <script>
+        function myFunction() {
+             document.getElementById("frm1").submit();
+        }
+    </script>
+</div>
+</body>
+</html>
