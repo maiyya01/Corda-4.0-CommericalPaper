@@ -76,6 +76,7 @@ class FlowInitiator(
                 maturityDate,
                 faceValue, "ISSUED")
 
+
         val txBuilder
                 = TransactionBuilder(notary)
                 .addOutputState(commercialPaperState, CommercialPaperContract.ID)

@@ -19,8 +19,8 @@ class CommercialPaperContract : Contract {
     interface Commands : CommandData {
         // Issue a new EUC.
         class Issue : Commands
-        class Trading : TypeOnlyCommandData(), Commands
-        class Redeemed : TypeOnlyCommandData(), Commands
+        class Trading : Commands
+        class Redeemed :  Commands
     }
 
 

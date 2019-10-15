@@ -70,8 +70,11 @@
             myObj = JSON.parse(this.responseText);
             txt += "<table class='table' border='0' style='width:60%'> <tr><th>Face Value</th><th>start Price</th><th>Maturity Date</th></tr>"
             for (x in myObj) {
-              txt += "<tr><td>" + myObj[x].state.data.faceValue + "</td><td>" +
-                    myObj[x].state.data.startPrice + "</td><td>" + myObj[x].state.data.maturityDate   + " </td></tr>";
+              txt += "<tr>" +
+                    "<td>" + myObj[x].state.data.paperNumber + "</td>" +
+                    "<td>" + myObj[x].state.data.faceValue + "</td>" +
+                    "<td>"  + myObj[x].state.data.faceValue   + " </td> +
+                    "</tr>";
             }
             txt += "</table>"
             document.getElementById("demo").innerHTML = txt;

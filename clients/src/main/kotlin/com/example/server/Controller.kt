@@ -1,5 +1,6 @@
 package com.example.server
 
+import com.example.flow.AcceptanceFlow
 import com.example.flow.FlowInitiator
 import com.example.flow.TradingFlowInitiator
 import com.example.state.CommercialPaperState
@@ -66,7 +67,7 @@ class Controller(rpc: NodeRPCConnection) {
      */
     @GetMapping(value = [ "commercialPapers" ], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun getCommercialPaper() : ResponseEntity<List<StateAndRef<CommercialPaperState>>> {
-        return ResponseEntity.ok(proxy.vaultQueryBy<CommercialPaperState>().states)
+        return ResponseEntity.ok(proxy.vaultQueryBy<CommercialPaperState>().states.filter{it.state.data.participants.contains(proxy.nodeInfo().legalIdentities.first())})
     }
 
     /**
@@ -75,12 +76,13 @@ class Controller(rpc: NodeRPCConnection) {
     @PostMapping(value = [ "traded-commercialPapers" ])
     fun tradedCommercialPaper(request: HttpServletRequest): ResponseEntity<String>
     {
-        val paperReference  = UUID.fromString("cfee3b85-30aa-469d-92c6-26e5b67479df")
-
+        val paperReference : String  = "54d72476-82d6-4ef8-a77a-102484fbbceb"
 
         return try {
             val signedTx = proxy.startTrackedFlow(::TradingFlowInitiator,paperReference).returnValue.getOrThrow()
             ResponseEntity.status(HttpStatus.CREATED).body("Transaction id ${signedTx.id} committed to ledger.\n")
+            //proxy.startTrackedFlow(::AcceptanceFlow,paperReference).returnValue.getOrThrow()
+            //ResponseEntity.status(HttpStatus.CREATED).body("Good")
 
         } catch (ex: Throwable) {
             logger.error(ex.message, ex)

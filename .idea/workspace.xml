@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46f54f14-906f-4b87-848c-cc1d75e26900" name="Default Changelist" comment="" />
+    <list default="true" id="46f54f14-906f-4b87-848c-cc1d75e26900" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Controller$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Controller$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/classes/com/example/server/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/out/production/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/out/production/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/CommercialPaperContract$Commands$Redeemed.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/CommercialPaperContract$Commands$Redeemed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/CommercialPaperContract$Commands$Trading.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/contract/CommercialPaperContract$Commands$Trading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/state/CommercialPaperState.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/classes/kotlin/main/com/example/state/CommercialPaperState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/kotlin/timesheetexamplecontracts01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/kotlin/timesheetexamplecontracts01jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build/libs/timesheet-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build/libs/timesheet-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/CommercialPaperContract$Commands$Redeemed.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/CommercialPaperContract$Commands$Redeemed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/CommercialPaperContract$Commands$Trading.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/out/production/classes/com/example/contract/CommercialPaperContract$Commands$Trading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion$FINALISING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion$GATHERING_SIGS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion$GENERATING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion$SIGNING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion$VERIFYING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowInitiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowResponder$call$signedTransactionFlow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/classes/kotlin/main/com/example/flow/TradingFlowResponder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/timesheetexampleworkflows01jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/timesheetexampleworkflows01jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/libs/timesheet-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/libs/timesheet-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/reference.conf" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/.cache/apps/net.corda.node.Corda_4.0/reference.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/cordapps/timesheet-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/cordapps/timesheet-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/cordapps/timesheet-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/cordapps/timesheet-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/logs/node-DESKTOP-UV1JQT1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/MegaCorp 1/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/artemis/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/brokers/rpc/journal/server.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-DESKTOP-UV1JQT1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Notary/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/additional-node-infos/nodeInfo-937CFBDE01399D9224685358A810B4431050A64CE6404EE6E10B8358D0A1A86B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/cordapps/timesheet-example-contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/cordapps/timesheet-example-contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/cordapps/timesheet-example-workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/cordapps/timesheet-example-workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/logs/node-DESKTOP-UV1JQT1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/nodeInfo-6C9ECE03C7536A792EBC552904E91F8540F4C6ECCF7C1FB63821A8F30F68FAF1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/persistence.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/persistence.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/Oracle/process-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/nodes/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes.bat" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/tmp/runnodes.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/FlowInitiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/FlowInitiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/IssueResponder$call$signedTransactionFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/IssueResponder$call$signedTransactionFlow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/IssueResponder.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/IssueResponder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion$FINALISING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion$GATHERING_SIGS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion$GENERATING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion$SIGNING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion$VERIFYING_TRANSACTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowInitiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowResponder$call$signedTransactionFlow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/out/production/classes/com/example/flow/TradingFlowResponder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,16 +162,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CitiCPCorda4.0" type="f1a62948:ProjectNode" />
+                <item name="Corda-4.0-CommericalPaper" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CitiCPCorda4.0" type="f1a62948:ProjectNode" />
+                <item name="Corda-4.0-CommericalPaper" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CitiCPCorda4.0" type="f1a62948:ProjectNode" />
+                <item name="Corda-4.0-CommericalPaper" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
@@ -77,11 +187,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="338">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -89,8 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="323">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,8 +208,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#27#194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="697">
+              <caret line="89" column="52" selection-start-line="63" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
               <folding>
                 <element signature="e#26#572#0" expanded="true" />
               </folding>
@@ -116,11 +229,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="82" column="51" lean-forward="true" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+            <state relative-caret-position="453">
+              <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+              <folding>
+                <element signature="e#26#603#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding>
+                <element signature="e#26#582#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +256,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="1309">
+              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -154,7 +282,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>InvoiceState</find>
+      <find>logger</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -170,62 +302,70 @@
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/BidContract.kt" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/BidState.kt" />
         <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/MakeBidFlow.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/resources/public/index.html" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" />
-        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt" />
-        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt" />
         <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="40" />
-    <option name="width" value="2800" />
-    <option name="height" value="1840" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -233,72 +373,51 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="clients" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -306,8 +425,8 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -316,8 +435,8 @@
               <item name="contract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="contracts-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -326,34 +445,34 @@
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CitiCPCorda4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CitiCPCorda4.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Corda-4.0-CommericalPaper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Corda-4.0-CommericalPaper" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -365,14 +484,18 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../flink" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../samples-release-V4/negotiation-cordapp" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.flow" />
       <recent name="com.example.state" />
       <recent name="com.example.contract" />
     </key>
@@ -415,6 +538,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Corda-4.0-CommericalPaper [runContractorServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runContractorServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="timesheet-example [runMegaCorp1Server]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -436,8 +578,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CitiCPCorda4.0 [runMegaCorp2Server]" />
         <item itemvalue="Gradle.timesheet-example [runMegaCorp1Server]" />
+        <item itemvalue="Gradle.Corda-4.0-CommericalPaper [runContractorServer]" />
+        <item itemvalue="Gradle.CitiCPCorda4.0 [runMegaCorp2Server]" />
       </list>
     </recent_temporary>
   </component>
@@ -464,11 +607,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8444846" visible="true" weight="0.20068729" />
-      <window_info id="Structure" order="1" sideWeight="0.15551537" side_tool="true" visible="true" weight="0.20068729" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7749326" visible="true" weight="0.20682302" />
+      <window_info id="Structure" order="1" sideWeight="0.22506739" side_tool="true" visible="true" weight="0.20682302" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -476,22 +619,22 @@
       <window_info id="Favorites" order="6" sideWeight="0.50088495" side_tool="true" weight="0.185567" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35468563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19609967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20284697" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40411702" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32977462" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3440095" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.15709643" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.23510292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.020618556" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.15991472" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -592,8 +735,8 @@
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/MakeBidFlow.kt" />
     <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -610,50 +753,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="82" column="51" lean-forward="true" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#27#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#26#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="697">
+          <caret line="89" column="52" selection-start-line="63" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
           <folding>
             <element signature="e#26#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="453">
+          <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+          <folding>
+            <element signature="e#26#603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
