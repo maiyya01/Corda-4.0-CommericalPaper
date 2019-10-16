@@ -16,7 +16,7 @@ data class CommercialPaperState(
         val maturityDate: String,
         val faceValue: Int,
         val state: String,
-        val linearId: UniqueIdentifier = UniqueIdentifier()) : ContractState {
+        override val linearId: UniqueIdentifier = UniqueIdentifier()) : LinearState {
     // Participants is a list of all the parties who should
     // be notified of the creation or consumption of this state.
 

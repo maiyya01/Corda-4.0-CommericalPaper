@@ -5,13 +5,10 @@ import com.example.contract.CommercialPaperContract
 import com.example.state.CommercialPaperState
 import net.corda.core.contracts.*
 import net.corda.core.flows.*
-import net.corda.core.identity.CordaX500Name
 import net.corda.core.identity.Party
 import net.corda.core.transactions.SignedTransaction
 import net.corda.core.transactions.TransactionBuilder
 import net.corda.core.utilities.ProgressTracker
-import java.time.Instant
-import java.util.*
 import net.corda.core.flows.FinalityFlow as FinalityFlow1
 
 // *********

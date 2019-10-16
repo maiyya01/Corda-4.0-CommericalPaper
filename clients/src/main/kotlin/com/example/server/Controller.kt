@@ -1,6 +1,5 @@
 package com.example.server
 
-import com.example.flow.AcceptanceFlow
 import com.example.flow.FlowInitiator
 import com.example.flow.TradingFlowInitiator
 import com.example.state.CommercialPaperState
@@ -8,6 +7,7 @@ import net.corda.core.contracts.StateAndRef
 import net.corda.core.identity.CordaX500Name
 import net.corda.core.messaging.startTrackedFlow
 import net.corda.core.messaging.vaultQueryBy
+import net.corda.core.transactions.SignedTransaction
 import net.corda.core.utilities.getOrThrow
 import org.slf4j.LoggerFactory
 import org.springframework.http.HttpStatus
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import java.util.*
 import javax.servlet.http.HttpServletRequest
 
 //val SERVICE_NAMES = listOf("Notary", "Network Map Service", "Oracle")
@@ -71,12 +70,20 @@ class Controller(rpc: NodeRPCConnection) {
     }
 
     /**
+     * Displays all historical Commercial Ihat exist in the node's vault.
+     */
+    @GetMapping(value = [ "historycommercialPapers" ], produces = [MediaType.APPLICATION_JSON_VALUE])
+    fun getHistoricalCommercialPaper() : ResponseEntity<List<SignedTransaction>> {
+        return ResponseEntity.ok(proxy.internalVerifiedTransactionsSnapshot())
+    }
+
+    /**
      * Post Commerical Paper to in the node's vault.
      */
-    @PostMapping(value = [ "traded-commercialPapers" ])
+    @PostMapping(value = [ "trade-commercialPapers" ])
     fun tradedCommercialPaper(request: HttpServletRequest): ResponseEntity<String>
     {
-        val paperReference : String  = "54d72476-82d6-4ef8-a77a-102484fbbceb"
+        val paperReference : String  = "a48b6dad-b1ec-4b23-be23-c120f6189c64"
 
         return try {
             val signedTx = proxy.startTrackedFlow(::TradingFlowInitiator,paperReference).returnValue.getOrThrow()
@@ -89,8 +96,6 @@ class Controller(rpc: NodeRPCConnection) {
             ResponseEntity.badRequest().body(ex.message!!)
         }
     }
-
-
 
     /**
      * Post Commerical Paper to in the node's vault.
