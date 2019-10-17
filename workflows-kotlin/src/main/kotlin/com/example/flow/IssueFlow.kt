@@ -22,7 +22,8 @@ class FlowInitiator(
         val paperNumber: Int,
         val issueDate: String,
         val maturityDate: String,
-        val faceValue: Int
+        val faceValue: Int,
+        val creator: String
 
 
 ) : FlowLogic<SignedTransaction>() {
@@ -71,7 +72,7 @@ class FlowInitiator(
                 paperNumber,
                 issueDate,
                 maturityDate,
-                faceValue, "ISSUED")
+                faceValue, 1, serviceHub.myInfo.legalIdentities.first(), creator, null)
 
 
         val txBuilder

@@ -104,13 +104,13 @@ class Controller(rpc: NodeRPCConnection) {
     fun postCommercialPaper(request: HttpServletRequest): ResponseEntity<String>
     {
         val paperNumber = request.getParameter("paperNumber").toInt()
-        val maturityDate = request.getParameter("maturityDate").toString()
-        val issueDate = request.getParameter("issueDate").toString()
+        val maturityDate = request.getParameter("maturityDateTime").toString()
+        val issueDate = request.getParameter("issueDateTime").toString()
         val faceValue = request.getParameter("faceValue").toInt()
-
+        val creator : String = "Balaji@DigiBank"
         return try {
             val signedTx = proxy.startTrackedFlow(::FlowInitiator, paperNumber, maturityDate,
-                    issueDate, faceValue ).returnValue.getOrThrow()
+                    issueDate, faceValue, creator).returnValue.getOrThrow()
             ResponseEntity.status(HttpStatus.CREATED).body("Transaction id ${signedTx.id} committed to ledger.\n")
 
         } catch (ex: Throwable) {

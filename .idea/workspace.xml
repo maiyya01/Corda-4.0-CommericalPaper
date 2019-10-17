@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46f54f14-906f-4b87-848c-cc1d75e26900" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RedeemedFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/resources/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" afterDir="false" />
     </list>
@@ -83,20 +87,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="659">
+              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
+        <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="281">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clients/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="1479">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -113,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="1802">
               <caret line="107" column="36" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="36" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
@@ -125,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.0/f157f0cd83cd4a5f0a99ed59e718ac62443b52fc/corda-core-4.0-sources.jar!/net/corda/core/messaging/CordaRPCOps.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="2805">
               <caret line="190" column="44" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="44" />
             </state>
           </provider>
@@ -134,17 +141,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="455">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="340">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="e#27#194#0" expanded="true" />
               </folding>
@@ -155,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="393">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#26#572#0" expanded="true" />
               </folding>
@@ -165,13 +172,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RedeemedFlow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-              <folding>
-                <element signature="e#26#603#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -201,13 +214,14 @@
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/BidContract.kt" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/BidState.kt" />
         <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/MakeBidFlow.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt" />
         <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt" />
-        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt" />
-        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RedeemedFlow.kt" />
         <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt" />
         <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt" />
       </list>
     </option>
   </component>
@@ -218,10 +232,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="100" />
+    <option name="y" value="40" />
+    <option name="width" value="2800" />
+    <option name="height" value="1840" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -387,7 +401,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cordapp-auction-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -399,6 +413,7 @@
       <recent name="com.example.contract" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Corda-4.0-CommericalPaper\workflows-kotlin\src\main\kotlin\com\example\flow" />
       <recent name="C:\workspace\corda\samples-release-V4\CitiCPCorda4.0\workflows-kotlin\src\main\kotlin\com\example\flow" />
       <recent name="C:\workspace\corda\samples-release-V4\CitiCPCorda4.0\workflows-kotlin\src\main\kotlin\com\example" />
       <recent name="C:\workspace\corda\samples-release-V4\timesheet-example\clients\src\main\kotlin\com\example\server" />
@@ -506,11 +521,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9198266" visible="true" weight="0.20682302" />
-      <window_info id="Structure" order="1" sideWeight="0.08017335" side_tool="true" visible="true" weight="0.20682302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9122183" visible="true" weight="0.209622" />
+      <window_info id="Structure" order="1" sideWeight="0.087781735" side_tool="true" visible="true" weight="0.209622" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -533,7 +548,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.015991472" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.020618556" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -608,16 +623,6 @@
     <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/BidState.kt" />
     <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/BidContract.kt" />
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/MakeBidFlow.kt" />
-    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -628,40 +633,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.0/f157f0cd83cd4a5f0a99ed59e718ac62443b52fc/corda-core-4.0-sources.jar!/net/corda/core/messaging/CordaRPCOps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="190" column="44" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
-          <folding>
-            <element signature="e#26#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/AcceptanceFlow.kt" />
     <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="1802">
           <caret line="107" column="36" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="36" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
@@ -669,47 +658,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.0/f157f0cd83cd4a5f0a99ed59e718ac62443b52fc/corda-core-4.0-sources.jar!/net/corda/core/messaging/CordaRPCOps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="2805">
+          <caret line="190" column="44" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
+    <entry file="file://$PROJECT_DIR$/clients/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="281">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/CommercialPaperContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/RedeemedFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#27#194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/IssueFlow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="393">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="e#26#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/TradingFlow.kt">
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Controller.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="e#26#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/CommercialPaperState.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#27#194#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="659">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
         </state>
       </provider>
     </entry>

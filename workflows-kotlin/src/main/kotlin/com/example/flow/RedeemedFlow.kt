@@ -21,14 +21,14 @@ import net.corda.core.flows.FinalityFlow as FinalityFlow1
 
 @InitiatingFlow
 @StartableByRPC
-class TradingFlowInitiator(
+class RedeemedFlowInitiator(
         val commercialPaperReference: String
 
 
 ) : FlowLogic<SignedTransaction>() {
 
     companion object {
-        private val logger = LoggerFactory.getLogger(TradingFlowInitiator::class.java)
+        private val logger = LoggerFactory.getLogger(RedeemedFlowInitiator::class.java)
     }
 
     override fun call(): SignedTransaction
@@ -37,9 +37,9 @@ class TradingFlowInitiator(
         val queryCriteria = QueryCriteria.LinearStateQueryCriteria(linearId = listOf(UniqueIdentifier.fromString(commercialPaperReference)))
         val inputStateAndRef = serviceHub.vaultService.queryBy<CommercialPaperState>(queryCriteria).states.single()
         val input = inputStateAndRef.state.data
-        val cpOutputState = input.copy(currentState= 2, price = input.faceValue * 0.90)
+        val cpOutputState = input.copy(currentState= 3)
         val cpOutputStateAndContract = StateAndContract(cpOutputState, CommercialPaperContract.ID)
-        val endAuctionCommand = Command(CommercialPaperContract.Commands.Trading(), input.issuer.owningKey)
+        val endAuctionCommand = Command(CommercialPaperContract.Commands.Redeemed(), input.issuer.owningKey)
 
         // Initiator flow logic goes here.
         val notary = serviceHub.networkMapCache.notaryIdentities.first()

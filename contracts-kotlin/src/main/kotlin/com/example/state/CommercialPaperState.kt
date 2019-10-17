@@ -12,14 +12,17 @@ import net.corda.core.identity.Party
 data class CommercialPaperState(
         val issuer : Party,
         val paperNumber: Int,
-        val issueDate: String,
-        val maturityDate: String,
+        val issueDateTime: String,
+        val maturityDateTime: String,
         val faceValue: Int,
-        val state: String,
+        val currentState: Int,
+        val owner : Party,
+        val creator : String,
+        val price : Double ?=null,
         override val linearId: UniqueIdentifier = UniqueIdentifier()) : LinearState {
     // Participants is a list of all the parties who should
     // be notified of the creation or consumption of this state.
 
-   override val participants: List<AbstractParty> = listOf(issuer)
+   override val participants: List<AbstractParty> = listOf(issuer, owner)
 
 }
